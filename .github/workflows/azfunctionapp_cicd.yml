@@ -12,18 +12,18 @@ on:
       GIT_FunctionApp_Name:
         description: 'Provide the Function App Name'
         required: true
-        default: 'functionappsrs'
+        default: 'functionappsr'
         
       GIT_FunctionApp_URL:
         description: 'Provide the Function App URL'
         required: true
-        default: 'https://functionappsrs.azurewebsites.net'
+        default: 'https://functionappsr.azurewebsites.net'
         
        # This is the path of your Function app in Git.
       GIT_FunctionApp_PATH:
         description: 'Relative path for Function'
         required: true
-        default: '/FunctionApp/DemoSample/'
+        default: '/FunctionApp/Inayath/'
 
 jobs:
   build:
